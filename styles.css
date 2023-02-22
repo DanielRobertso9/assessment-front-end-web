@@ -1,0 +1,147 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	margin: 10px;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.checkbox {
+display: flex;
+}
+
+/* Profile CSS */
+
+header{
+	max-height: 330px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+
+#profileContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#profilePic{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	object-fit: cover;
+	object-position: 0px -30px;
+}
+
+main{
+	height: 40vh;
+	background-color: white;
+	padding: 20px;
+
+}
+
+#profileSubjects{
+	width: 500px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.link{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.link:hover{
+	transform: translate(0, -3px);
+	color: lightgray;
+  }
+
+.link:active {
+	transform: translate(0, -1px);
+  }  
+
+.border{
+	border-bottom: 10px solid white;
+}
+
+.subject{
+	max-width: 460px;
+}
+
+.subject{
+	position: absolute;
+  	width: 500px;
+ 	opacity: 0;
+ 	transition: 0.3s;
+}
+
+.show{
+	opacity: 1
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+}
+
+button:hover{
+	transform: translate(0, -1px);
+	color: rgb(255, 0, 0);
+	box-shadow: 1px 1px 0 2px black;
+  }
+
+  .submitBtn:hover{
+	transform: translate(0, -1px);
+	color: rgb(255, 0, 0);
+	box-shadow: 1px 1px 0 2px black;
+  }
+
+.submitBtn{
+	border-radius: 5px;
+	border-color: darkgrey;
+	color: white;
+	background-color: black;
+}
+
+button{
+	border-radius: 5px;
+	border-color: darkgrey;
+	color: white;
+	background-color: black;
+}
